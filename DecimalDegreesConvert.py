@@ -81,5 +81,8 @@ for i in range(len(dfLongitude)):
 
 print(df)
 
+# output dataframe to csv 
+df.to_csv(data['filepaths']['WallOutput'])
+
 
 
